@@ -1,0 +1,59 @@
+/* Header */ 
+
+.header{
+	
+	width: 100%;
+	border-bottom: 2px solid #f2f2f2;
+    height: 80px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.header a{
+			padding: 10px;
+			float: right;
+}
+
+
+/* details */ 
+
+.details{
+	text-align: center;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+table{
+	border: 2px solid;
+}
+
+tr{
+	padding: 10px;
+	border: 2px solid;
+}
+
+td{
+	padding: 10px;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+.image_upload
+{
+ position: absolute;
+ top:3px;
+ right:3px;
+}
+.image_upload > form > input
+{
+    display: none;
+}
+
+.image_upload img
+{
+    width: 24px;
+    cursor: pointer;
+}
